@@ -9,7 +9,16 @@ export default {
       fontFamily: {
         grotesk: ["Space Grotesk", "sans-serif"],
       },
+      keyframes: {
+        glow: {
+          "0%, 100%": { textShadow: "0 0 5px rgba(255,255,255,0.8)" },
+          "50%": { textShadow: "0 0 18px rgba(255,255,255,1)" },
+        },
+      },
+      animation: {
+        glow: "glow 2.5s infinite alternate",
+      },
     },
   },
   plugins: [],
-}
+};

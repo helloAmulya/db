@@ -43,7 +43,7 @@ function Header() {
         </ul>
 
         <button
-          className="border p-2 hover:bg-[#00ADB5] hover:text-black transition-all duration-300"
+          className="border p-2 hover:bg-lime-400 hover:text-black transition-all duration-300"
           onClick={() =>
             navigate(location.pathname === "/contact" ? "/" : "/contact")
           }
