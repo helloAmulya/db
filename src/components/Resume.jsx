@@ -15,6 +15,7 @@ function Resume() {
           src={resumeImage}
           alt="Resume Preview"
           className="w-full md:w-3/4 lg:w-3/5 rounded-xl shadow-lg transition-transform "
+          loading="lazy"
         />
       </div>
 

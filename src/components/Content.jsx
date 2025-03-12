@@ -75,7 +75,8 @@ function Content() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className={`w-full rounded-2xl transition-transform duration-500 hover:scale-105 ${
+                  loading="lazy"
+                  className={`w-full rounded-2xl transition-transform duration-500 hover:scale-105  ${
                     project.title === "Edutech Website"
                       ? "shadow-[0px_0px_50px_rgba(0,200,255,0.9)]"
                       : "shadow-[0px_0px_30px_rgba(0,173,181,0.7)]"
