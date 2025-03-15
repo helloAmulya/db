@@ -79,7 +79,8 @@ function Content() {
           applications.
         </p>
 
-        <div className="mt-12 flex flex-wrap justify-center gap-4 md:gap-6">
+        <div className="mt-12 flex  flex-wrap justify-center gap-4 md:gap-6">
+
           {[
             { name: "React", gradient: "from-blue-400 to-cyan-300" },
             { name: "Node.js", gradient: "from-green-400 to-lime-300" },
