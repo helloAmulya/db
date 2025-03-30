@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        grotesk: ["Space Grotesk", "sans-serif"],
+        mono: ['"IBM Plex Mono"', 'monospace'],
       },
       keyframes: {
         glow: {

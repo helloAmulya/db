@@ -8,10 +8,11 @@ import {
 } from "react-router-dom";
 import Layout from "./Layout.jsx";
 import "./index.css";
-import App from "./App.jsx";
+// import App from "./App.jsx";
 import Contact from "./components/Contact.jsx";
 import Content from "./components/Content.jsx";
 import Resume from "./components/Resume.jsx";
+import Projects from "./components/Projects.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route index element={<Content />} />
       <Route path="contact" element={<Contact />} />
       <Route path="resume" element={<Resume />} />
+      <Route path="projects" element={<Projects />} />
     </Route>
   )
 );
