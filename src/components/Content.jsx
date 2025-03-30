@@ -46,7 +46,7 @@ function Content() {
             </span>
           </p>
 
-          <div className="md:hidden mt-14 border-t-2 border-white w-full max-w-4xl mx-auto"></div>
+          <div className="md:hidden mt-14 border-t-2 border-white w-full max-w-4xl mb-14 mx-auto"></div>
         </div>
       </section>
 
