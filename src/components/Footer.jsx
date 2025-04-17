@@ -24,7 +24,7 @@ function Footer() {
             <div tabIndex="0" style={{ opacity: 1, transform: "none" }}>
               <a
                 className="block text-purple-400/80 hover:text-purple-400 transition-all duration-200 -m-2 p-2 hover:bg-purple-400/10 rounded-md hover:shadow-md hover:shadow-purple-500/5"
-                href="mailto:ratna.amulya@gmail.com"
+                href="mailto:ratna.amulya98@gmail.com"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
