@@ -1,6 +1,6 @@
 import React from "react";
 import { FiExternalLink } from "react-icons/fi";
-import bizmage from "../assets/bizmage.png";
+import gmage from "../assets/gmage.pn";
 import formed from "../assets/formed.png";
 import yder from "../assets/yder.png";
 import { useNavigate } from "react-router-dom";
