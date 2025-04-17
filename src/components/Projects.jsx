@@ -10,12 +10,12 @@ function Projects() {
   const navigate = useNavigate();
   const projects = [
     {
-      title: "Bizman",
+      title: "Gmail Clone",
       description:
-        "A React Project with Dashboard, Login & Signup functionality",
+        "A frontend Clone of Gmail",
       image: bizmage,
-      tech: "React, Node.js, TailwindCSS",
-      liveLink: "https://bizman.vercel.app/",
+      tech: "React, Node.js, Firebase",
+      liveLink: "https://clone-457b2.web.app/",
       align: "right",
     },
     {
