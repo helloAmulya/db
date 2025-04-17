@@ -13,7 +13,7 @@ function Projects() {
       title: "Gmail Clone",
       description:
         "A frontend Clone of Gmail",
-      image: bizmage,
+      image: gmage,
       tech: "React, Node.js, Firebase",
       liveLink: "https://clone-457b2.web.app/",
       align: "right",
