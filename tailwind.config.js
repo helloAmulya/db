@@ -18,6 +18,9 @@ export default {
       animation: {
         glow: "glow 2.5s infinite alternate",
       },
+      backgroundImage: {
+        'gradient-to-r': 'linear-gradient(to right, var(--tw-gradient-stops))',
+      },
     },
   },
   plugins: [],
